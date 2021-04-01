@@ -1,0 +1,15 @@
+.InventoryList {
+	padding: 1rem;
+	margin: 1rem;
+	background-color: white;
+	box-shadow: 0 4px 6px 0px rgba(0,0,0,.25);
+	border-radius: 10px;
+}
+.InventoryList > h3 {
+	padding-bottom: .75rem;
+}
+.InventoryList > ul {
+	max-height: 80vh;
+	border-radius: 5px;
+	overflow: scroll;
+}

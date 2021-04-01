@@ -1,0 +1,15 @@
+.Nav {
+}
+.NavList {
+	display: flex;
+	width: max-content;
+}
+.NavListItem {
+	background-color: white;
+	padding: .5rem 1rem;
+	margin: 0 .5rem;
+	transition: .35s all ease;
+}
+.NavListItem:hover {
+	transform: translate(-2px, -2px);
+}

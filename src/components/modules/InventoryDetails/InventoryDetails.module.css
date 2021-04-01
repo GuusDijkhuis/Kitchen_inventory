@@ -1,0 +1,30 @@
+.Details {
+	display: flex;
+	flex-direction: column;
+}
+.Header > h3 {
+	text-transform: capitalize;
+}
+.Info {
+	display: flex;
+	flex-direction: column;
+}
+.InfoList {
+	display: flex;
+	flex-direction: column;
+}
+.InfoListItem {
+	margin: .25rem 0;
+	padding: .25rem 0;
+}
+.InfoListItem > h3 {
+	border-bottom: 2px solid black;
+}
+.InfoListLoop > li {
+	padding: .5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.InfoListLoop > li:nth-child(odd) {
+	background-color: #E8E8E8;
+}

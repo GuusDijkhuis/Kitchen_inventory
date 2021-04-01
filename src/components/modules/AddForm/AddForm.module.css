@@ -1,0 +1,41 @@
+.AddForm {
+	display: flex;
+	flex-direction: column;
+}
+.AddForm > fieldset {
+	padding: .5rem 0;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: 2px solid rgb(193, 193, 193);
+}
+.AddForm > fieldset label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: .7rem;
+	color: rgb(142, 141, 141);
+}
+.AddForm > fieldset input[type="text"] {
+	margin: .25rem 0;
+	padding: .25rem;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.AddForm > fieldset legend {
+}
+.AddFormButton {
+	border-radius: 5px;
+	border: rgba(0,0,0,1) 2px solid;
+	background-color: white;
+	padding: .25rem;
+	transition: .35s all ease;
+	font-weight: 500;
+}
+.AddFormButton:hover {
+	background-color: rgba(0,0,0,1);
+	border: transparent 2px solid;
+	color: white;
+}
+.IngredientsInput {
+	display: block;
+}
