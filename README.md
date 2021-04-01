@@ -2,7 +2,10 @@
 
 ![Image of all the episodes](public/inventory_screenshot.png)
 
-This application is for your own inventory. You can see an overview of your inventory, you can add and remove some products from your list.
+This application is for your own inventory. You can see an overview of your inventory, you can add and remove some products from your list. 
+
+#### Framework
+The framework I working with is ReactJS and the application is build up with components.  
 
 ### Wish list
 
