@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import mongoose from 'mongoose';
+
 import { v4 as uuidv4 } from 'uuid';
 
 import AddFormStyle from './AddForm.module.css';
@@ -29,6 +31,7 @@ class AddForm extends Component {
 		this.addIngredient = this.addIngredient.bind(this);
 	}
 	handleSubmit(evt) {
+		const MyModel = mongoose.model('Product', 'Product');
 		evt.preventDefault();
 		this.props.addItem(this.state.details);
 		this.setState({
